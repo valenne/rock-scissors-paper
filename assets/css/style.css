@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.box {
+  margin: 4.8rem 1.6rem;
+  border: 1px solid #473144;
+}
+
+h1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.95px;
+}
+
+.box {
+  padding: 4.8rem 4.8rem;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  background-color: #af1b3f;
+  border-radius: 0.8rem;
+  border: 1px solid #000;
+  font-size: 1.6rem;
+  color: #fbfff1;
+  transition: all 0.5s;
+  margin-top: 2.4rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #473144;
+  color: #fbfff1;
+  border-color: #af1b3f;
+}
