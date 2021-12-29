@@ -100,6 +100,7 @@ function game(userChoice, iaChoice, nombre) {
   }
 }
 
+// resuelve el % de victoria y derrota, ademas de un mensaje
 function resFinales(win, loss, tie, nombre) {
   if (tie > win && tie > loss && win > loss) {
     let res = Math.round((win / (loss + tie + win)) * 100, 2);
